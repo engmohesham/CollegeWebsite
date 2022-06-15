@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3LOOM Plus+ (تسجيل المواد)</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/file.css" />
+    <link rel="stylesheet" href="icons/icomoon-v1.0/style.css" />
+    <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js"
+        integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD"
+        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/jpg" href="icons/atom-green.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="overly"></div>
+    <!--
+    <div class="arrwo">
+      <button class="btn-arrow">
+        <img src="icons/angle-double-up.svg" class="icon arrwoi" />
+      </button>
+    </div>
+-->
+
+    <header>
+        <img class="logo" src="icons/atom-green.svg" alt="" srcset="">
+        <nav>
+            <ul class="nave-ul">
+                <li>
+                    <a href="#"> <i class="fad fa-home-lg-alt home"></i> الرئيسية </a>
+                </li>
+                <li>
+                    <a href="#"> <i class="fad fa-folder-open home"></i> سابق المادة </a>
+                </li>
+                <li>
+                    <a href="#"> <i class="fad fa-book home"></i> كود المادة </a>
+                </li>
+                <li>
+                    <a href="#"> <i class="fad fa-arrow-up home"></i> قريبا </a>
+                </li>
+                <p class="par-name none dark">3LOOM Plus+</p>
+            </ul>
+        </nav>
+
+        <div class="B-icons">
+            <button class="buton-black-whight"><i class="fad fa-adjust"></i></button>
+            <button class="menu-right"><i class="fad fa-align-right"></i></button>
+            <button class="menu-left"><i class="fad fa-align-left"></i></button>
+        </div>
+
+    </header>
+    <img class="svg-logo" src="icons/atom-gray.svg" alt="" srcset="" />
+    <label class="random">135792468012</label>
+    <div class="right-listtes">
+        <input type="text" placeholder="رقمك القومي" class="yournumber num">
+        <button class="do num-do">✔</button>
+        <label class="regnum">National ID:</label>
+        <label class="national"></label>
+
+        <input type="text" placeholder="اسمك ثلاثي" class="yourname nam">
+        <button class="do nam-do">✔</button>
+        <label class="regnam">Name :</label>
+        <label class="editname">محمد احمد</label>
+
+
+    </div>
+    <div class="right-listtes listess">
+        <table class="table-all">
+            <tr class="table-info">
+                <td>ID</td>
+                <td>الكود</td>
+                <td>اسم المادة</td>
+                <td>ع.س</td>
+                <td>يوم الامتحان</td>
+                <td>ك.س</td>
+            </tr>
+            <!-- ================ -->
+            <!-- First Row -->
+            <!-- ================ -->
+            <tr class="table-info">
+                <td><label class="id-1">1</label></td>
+
+                <!-- كود المادة الذي سيكتب ويتم تعديله عند الضغط علي edit -->
+                <td class="td-1">
+                    <input type="text" placeholder="ك.المادة" class="inp code-0">
+                    <button class="ok ok-code-0">✔</button>
+                </td>
+                <!-- كود المادة الذي سيظهر عند الضغط علي ok -->
+                <td class="edit-code">
+                    <label class="code-1"></label>
+                    <a href="#" class="link li-code-1">edit</a>
+                </td>
+
+                <!-- اسم المادة الذي سيكتب ويتم تعديله عند الضغط علي edit -->
+                <td class="td-2">
+                    <input type="text" placeholder="اسم المادة" class="inp subject-0">
+                    <button class="ok ok-sub-0">✔</button>
+                </td>
+                <!-- اسم المادة الذي سيظهر عند الضغط علي ok -->
+                <td class="edit-sub">
+                    <label class="sub-1"></label>
+                    <a href="#" class="link li-sub-1">edit</a>
+                </td>
+
+                <!-- عدد ساعات المادة -->
+                <td><label class="hour-1">4</label></td>
+
+                <!-- يوم المادة الذي سيكتب ويتم تعديله عند الضغط علي edit -->
+                <td class="td-3">
+                    <input type="text" placeholder="يوم الامتحان" class="inp day-0">
+                    <button class="ok ok-day-0">✔</button>
+                </td>
+                <!-- يوم المادة الذي سيظهر عند الضغط علي ok -->
+                <td class="edit-day">
+                    <label class="day-1"></label>
+                    <a href="#" class="link li-day-1">edit</a>
+                </td>
+
+                <!-- كود السابق سيظهر تلقائي عند كتابة كود المادة وضغط ok -->
+                <!-- كود السابق سيختفي عند الضغط علي edit -->
+                <td><label class="code-2">F111</label></td>
+            </tr>
+
+            <!-- ================ -->
+            <!-- Second Row -->
+            <!-- ================ -->
+            <tr class="table-info n2">
+                <td>
+                    <label class="id-2">2</label>
+                </td>
+                <td class="td-4">
+                    <input type="text" placeholder="ك.المادة" class="inp code-3"> <button
+                        class="ok ok-code-3">✔</button>
+                </td>
+                <td class="edit-code">
+                    <label class="code-4"></label><a href="#" class="link li-code-4">edit</a>
+                </td>
+                <td class="td-5">
+                    <input type="text" placeholder="اسم المادة" class="inp subject-2"><button
+                        class="ok ok-sub-2">✔</button>
+                </td>
+                <td class="edit-sub">
+                    <label class="sub-3"></label><a href="#" class="link li-sub-3">edit</a>
+                </td>
+                <td>
+                    <label class="hour-2">4</label>
+                </td>
+                <td class="td-6">
+                    <input type="text" placeholder="يوم الامتحان" class="inp day-2"><button
+                        class="ok ok-day-2">✔</button>
+                </td>
+                <td class="edit-day">
+                    <label class="day-3"></label><a href="#" class="link li-day-3">edit</a>
+                </td>
+                <td>
+                    <label class="code-5">F111</label>
+                </td>
+            </tr>
+            <!-- ================ -->
+            <!-- Third Row -->
+            <!-- ================ -->
+            <tr class="table-info n3">
+                <td>
+                    <label class="id-3">3</label>
+                </td>
+                <td class="td-7">
+                    <input type="text" placeholder="ك.المادة" class="inp code-6"> <button
+                        class="ok ok-code-6">✔</button>
+                </td>
+                <td class="edit-code">
+                    <label class="code-7"></label><a href="#" class="link li-code-7">edit</a>
+                </td>
+                <td class="td-8">
+                    <input type="text" placeholder="اسم المادة" class="inp subject-4"><button
+                        class="ok ok-sub-4">✔</button>
+                </td>
+                <td class="edit-sub">
+                    <label class="sub-5"></label><a href="#" class="link li-sub-5">edit</a>
+                </td>
+                <td>
+                    <label class="hour-3">4</label>
+                </td>
+                <td class="td-9">
+                    <input type="text" placeholder="يوم الامتحان" class="inp day-4"><button
+                        class="ok ok-day-4">✔</button>
+                </td>
+                <td class="edit-day">
+                    <label class="day-5"></label><a href="#" class="link li-day-5">edit</a>
+                </td>
+                <td>
+                    <label class="code-8">F111</label>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="right-listtes">
+        <div class="btn-add">
+            <button class="add-1">اضافة مادة</button>
+            <button class="add-2 non">اضافة مادة</button>
+        </div>
+        <div class="btn-end">
+            <button class="end">تقديم الجدول</button>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footicons">
+            <a href="#"><i class="fab fa-facebook-f footico"></i></a>
+            <a href="#"><i class="fab fa-github footico"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g footico"></i></a>
+            <a href="#"><i class="fab fa-instagram footico"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in footico"></i></a>
+        </div>
+
+        <p>Copyright <span class="footerlin" style="font-size: 17px;">©</span> 2021 <span
+                style="font-weight: bold;">3LOOM Plus+</span></p>
+    </footer>
+
+
+
+
+
+    <div class="end-card">
+        <h1>هل انت متاكد من انهاء الجدول</h1>
+        <button class="yes">نعم</button>
+        <button class="no">لا</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="slay">
+        <p>🌹 صلي علي سيدنا محمد 🌹</p>
+    </div>
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".right-listtes"), {
+            max: 1,
+            speed: 2000,
+            glare: true,
+            "max-glare": 0.1,
+        });
+    </script>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/file.js"></script>
+</body>
+
+</html>

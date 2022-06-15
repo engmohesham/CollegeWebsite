@@ -1,0 +1,847 @@
+.right-listtes {
+    margin: auto;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.right-listtes:nth-child(5){
+    padding: 27px 10px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.national,
+.editname,
+.regnum,
+.regnam {
+    display: none;
+}
+.regnam {
+    position: absolute;
+    right: 13%;
+}
+.regnum {
+    position: absolute;
+    left: 5%;
+}
+.national{
+   position: absolute;
+   left: 25%;
+}
+.editname {
+    position: absolute;
+    right: -1%;
+}
+.yournumber,
+.yourname {
+    outline: none;
+    font-size: 14px;
+    text-align: center;
+    direction: rtl;
+    border: 1px solid rgb(55, 57, 59);
+    border-radius: 5px;
+    padding: 1px;
+    font-weight: 600;
+    color: rgb(155, 181, 196);
+    background-color: rgb(8, 58, 62);
+    margin-right: 1px;
+    transition: .4s all;
+    width: 130px;
+}
+.yournumber {
+    position: absolute;
+    left: 15%;
+}
+.yourname {
+    position: absolute;
+    left: 60%;
+}
+.yournumber:focus,
+.yourname:focus{
+    color: #fff;
+    background-color: rgb(58, 92, 111);
+}
+.yournumber::placeholder,
+.yourname::placeholder {
+    color: rgb(221, 221, 221);
+}
+
+.do {
+    background-color: rgb(0, 0, 0);
+    padding: 0 5px;
+    font-weight: bold;
+    color: rgb(92, 148, 180);
+    border-radius: 50%;
+    font-size: 11px;
+    cursor: pointer;
+    transition: .4s all;
+    
+}
+
+.do:nth-child(2){
+    position: absolute;
+    right: 60%;
+}
+
+.do:nth-child(6){
+    position: absolute;
+    right: 15%;
+}
+
+.do:hover {
+    background-color: rgb(41, 79, 101);
+    color: #fff;
+}
+
+.random {
+    transform: translate(-50%,50%);
+    position: absolute;
+    right: 33%;
+    top: 32%;
+    font-family: 'abeatbyKai',sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0 8px 32px 0 rgb(33, 34, 34);
+    background-color: rgb(35, 57, 70);
+    padding: 7px;
+    letter-spacing: 5px;
+}
+
+.table-all {
+  width: 93%;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px;
+  color: rgb(95, 157, 145);
+  outline: none;
+  font-weight: bold;
+  border: 3px solid rgba(10, 10, 10, 0.5);
+  width: 100%;
+  font-size: 14px;
+}
+
+.table-info td {
+    border: 2px solid rgba(10, 10, 10, 0.6);
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 2px;
+}
+
+.table-info td:nth-child(1){
+    width: 25px;
+}
+
+.edit-code,
+.edit-sub,
+.edit-day{
+    display: none;
+}
+
+.inp {
+    width: 80px;
+    outline: none;
+    font-size: 15px;
+    text-align: center;
+    direction: rtl;
+    border: 1px solid rgb(35, 57, 70);
+    border-radius: 5px;
+    padding: 1px;
+    font-weight: bold;
+    color: rgb(113, 118, 121);
+    background-color: rgb(35, 57, 70);
+    margin-right: 1px;
+    transition: .4s all;
+}
+body > div.right-listtes > table > tbody > tr:nth-child(2) > td:nth-child(2) > input,
+body > div.right-listtes > table > tbody > tr:nth-child(3) > td:nth-child(2) > input,
+body > div.right-listtes > table > tbody > tr:nth-child(4) > td:nth-child(2) > input{
+    direction: ltr;
+}
+
+.inp:focus{
+    color: #fff;
+    background-color: rgb(58, 92, 111);
+}
+.inp::placeholder {
+    color: rgb(221, 221, 221);
+}
+
+.ok {
+    background-color: rgb(35, 57, 70);
+    padding: 0px 5px;
+    font-weight: bold;
+    color: rgb(0, 131, 205);
+    border-radius: 50%;
+    font-size: 11px;
+    cursor: pointer;
+    transition: .4s all;
+}
+
+.ok:hover {
+    background-color: rgb(58, 92, 111);
+    color: rgb(255, 255, 255);
+}
+
+td .id-1,
+td .code-1,
+td .sub-1,
+td .hour-1,
+td .day-1,
+td .code-2,
+
+td .id-2,
+td .code-4,
+td .sub-3,
+td .hour-2,
+td .day-3,
+td .code-5,
+
+td .id-3,
+td .code-7,
+td .sub-5,
+td .hour-3,
+td .day-5,
+td .code-8{
+    color: rgb(95, 157, 145);
+}
+.n2,
+.n3{
+    display: none;
+}
+
+.code-1,
+.sub-1,
+.day-1,
+
+.code-4,
+.sub-3,
+.day-3,
+
+.code-7,
+.sub-5,
+.day-5{
+    font-size: 17px;
+}
+
+.link {
+    font-size: 13px;
+    color: rgb(35, 57, 70);
+    transition: .4s all;
+}
+
+.link:hover {
+    color: rgb(103, 209, 189);
+}
+
+.right-listtes:nth-child(7){
+    margin-top: 30px;
+    justify-content: space-around
+}
+
+.btn-add,
+.btn-end {
+    width: 30%;
+    text-align: center;
+}
+
+.non {
+    display: none;
+}
+
+.btn-add button,
+.btn-end button {
+    color: rgb(112, 117, 119);
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    background-color: rgb(35, 57, 70);
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    line-height: 2;
+    cursor: pointer;
+    transition: .4s all;
+    position: relative;
+}
+
+.btn-add button::after,
+.btn-end button::after{
+    position: absolute;
+    content: "";
+    background-color: rgb(104, 169, 206);
+    height: 3px;
+    width: 0px;
+    left: 118px;
+    bottom: 2px;
+    transition: .4s all;
+}
+.btn-add button:hover::after,
+.btn-end button:hover::after{
+    width: 111px;
+}
+.btn-add button::before,
+.btn-end button::before{
+    position: absolute;
+    content: "";
+    background-color: rgb(0, 131, 205);
+    height: 3px;
+    width: 0px;
+    left: 118px;
+    bottom: 2px;
+    transition: .5s all;
+}
+.btn-add button:hover::before,
+.btn-end button:hover::before{
+    margin-left: -110px;
+    width: 111px;
+}
+
+.btn-add button:hover,
+.btn-end button:hover {
+    background-color: #242424;
+    color: #fff;
+}
+
+
+.end-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    color: rgb(75, 124, 115);
+    box-shadow: 0 8px 32px 0 rgb(33, 34, 34);
+    padding: 40px;
+    letter-spacing: -1px;
+    display: none;
+    z-index: 100000;
+}
+.end-card .yes {
+    padding: 10px;
+    background-color: rgb(95, 157, 145);
+    color: #fff;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s all;
+}
+.end-card .no {
+    padding: 10px 18px;
+    background-color: rgb(95, 157, 145);
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .4s all;
+}
+.end-card .yes:hover {
+    background-color: rgb(0, 131, 205);
+}
+.end-card .no:hover {
+    background-color: rgb(157, 95, 95);
+}
+.overly {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 10000;
+    display: none;
+}
+
+/*تغير الشاشات*/
+
+@media (max-width: 1440px) {
+    .right-listtes {
+        width: 60%;
+    }
+    .inp {
+        width: 150px;
+    }
+    body > div.right-listtes > table > tbody > tr:nth-child(2) > td:nth-child(2) > input,
+    body > div.right-listtes > table > tbody > tr:nth-child(3) > td:nth-child(2) > input,
+    body > div.right-listtes > table > tbody > tr:nth-child(4) > td:nth-child(2) > input{
+        width: 120px
+    }
+    body > div.right-listtes > table > tbody > tr:nth-child(1) > td:nth-child(4){
+        width: 70px
+    }
+    .yournumber {
+        position: absolute;
+        left: 15%;
+        width: 150px;
+    }
+    .yourname {
+        position: absolute;
+        left: 60%;
+        width: 150px;
+    }
+    .do:nth-child(2){
+        position: absolute;
+        right: 60%;
+    }
+    .do:nth-child(6){
+        position: absolute;
+        right: 15%;
+    }
+    .random {
+        transform: translate(-50%,50%);
+        position: absolute;
+        right: 38.7%;
+        top: 25%;
+        font-size: 13px;
+    }
+}
+@media (max-width: 1200px) {
+    .btn-add button::after,
+    .btn-end button::after{
+        left: 100px;
+    }
+    .btn-add button:hover::after,
+    .btn-end button:hover::after {
+        width: 90px;
+    }
+    .btn-add button::before,
+    .btn-end button::before {
+        margin-left: -70px;
+    }
+    .btn-add button:hover::before,
+    .btn-end button:hover::before {
+        margin-left: -100px;
+        width: 90px;
+    }
+    .yournumber {
+        position: absolute;
+        left: 15%;
+    }
+    .yourname {
+        position: absolute;
+        left: 60%;
+    }
+    .do:nth-child(2){
+        position: absolute;
+        right: 58%;
+    }
+    .do:nth-child(6){
+        position: absolute;
+        right: 13%;
+    }
+    .random {
+        transform: translate(-50%,50%);
+        position: absolute;
+        right: 36.7%;
+        top: 31%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .right-listtes {
+        width: 75%;
+    }
+    .inp {
+        width: 120px;
+    }
+    body > div.right-listtes > table > tbody > tr:nth-child(2) > td:nth-child(2) > input,
+    body > div.right-listtes > table > tbody > tr:nth-child(3) > td:nth-child(2) > input,
+    body > div.right-listtes > table > tbody > tr:nth-child(4) > td:nth-child(2) > input{
+        width: 100px
+    }
+    body > div.right-listtes > table > tbody > tr:nth-child(1) > td:nth-child(4){
+        width: 70px
+    }
+    .btn-add button::after,
+    .btn-end button::after{
+        left: 110px;
+    }
+    .btn-add button:hover::after,
+    .btn-end button:hover::after {
+        width: 85px;
+    }
+    .btn-add button::before,
+    .btn-end button::before {
+        margin-left: -70px;
+    }
+    .btn-add button:hover::before,
+    .btn-end button:hover::before {
+        margin-left: -95px;
+        width: 90px;
+    }
+    .yournumber {
+        position: absolute;
+        left: 15%;
+    }
+    .yourname {
+        position: absolute;
+        left: 60%;
+    }
+    .do:nth-child(2){
+        position: absolute;
+        right: 61%;
+    }
+    .do:nth-child(6){
+        position: absolute;
+        right: 16%;
+    }
+    .random {
+        transform: translate(-50%,50%);
+        position: absolute;
+        right: 34.6%;
+        top: 33%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 950px) {
+    .right-listtes {
+        width: 80%;
+    }
+    .inp {
+        width: 110px;
+    }
+    body > div.right-listtes > table > tbody > tr:nth-child(2) > td:nth-child(2) > input,
+    body > div.right-listtes > table > tbody > tr:nth-child(3) > td:nth-child(2) > input,
+    body > div.right-listtes > table > tbody > tr:nth-child(4) > td:nth-child(2) > input{
+        width: 90px
+    }
+    body > div.right-listtes > table > tbody > tr:nth-child(1) > td:nth-child(4){
+        width: 60px
+    }
+    .btn-add button::after,
+    .btn-end button::after{
+        left: 100px;
+    }
+    .btn-add button:hover::after,
+    .btn-end button:hover::after {
+        width: 80px;
+    }
+    .btn-add button::before,
+    .btn-end button::before {
+        margin-left: -80px;
+    }
+    .btn-add button:hover::before,
+    .btn-end button:hover::before {
+        margin-left: -90px;
+        width: 80px;
+    }
+    .yournumber {
+        position: absolute;
+        left: 15%;
+    }
+    .yourname {
+        position: absolute;
+        left: 60%;
+    }
+    .do:nth-child(2){
+        position: absolute;
+        right: 55%;
+    }
+    .do:nth-child(6){
+        position: absolute;
+        right: 10%;
+    }
+    .random {
+        transform: translate(-50%,50%);
+        position: absolute;
+        right: 33.2%;
+        top: 40%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+  body::after {
+    width: 450px;
+    height: 450px;
+    top: 340px;
+  }
+  body::before {
+    width: 310px;
+    height: 310px;
+    }
+    .right-listtes {
+        width: 97%;
+    }
+    .inp {
+        width: 120px;
+    }
+    body > div.right-listtes > table > tbody > tr:nth-child(2) > td:nth-child(2) > input,
+    body > div.right-listtes > table > tbody > tr:nth-child(3) > td:nth-child(2) > input,
+    body > div.right-listtes > table > tbody > tr:nth-child(4) > td:nth-child(2) > input{
+        width: 100px;
+    }
+    body > div.right-listtes > table > tbody > tr:nth-child(1) > td:nth-child(4){
+        width: 60px;
+    }
+    body > div.right-listtes > table > tbody > tr:nth-child(1) > td:nth-child(6){
+        width: 60px;
+    }
+    .logo {
+      width: 60px;
+      position: absolute;
+      left: 3%;
+      top: 8%;
+    }
+    .menu-right{
+        display: none;
+    }
+    .btn-add button::after,
+    .btn-end button::after{
+        left: 100px;
+    }
+    .btn-add button:hover::after,
+    .btn-end button:hover::after {
+        width: 70px;
+    }
+    .btn-add button::before,
+    .btn-end button::before {
+        margin-left: 90px;
+    }
+    .btn-add button:hover::before,
+    .btn-end button:hover::before {
+        margin-left: -85px;
+        width: 70px;
+    }
+    .regnam {
+        position: absolute;
+        right: 13%;
+    }
+    .regnum {
+        position: absolute;
+        left: 5%;
+    }
+    .national{
+       position: absolute;
+       left: 25%;
+    }
+    .editname {
+        position: absolute;
+        right: -1%;
+    }
+    .yournumber {
+        position: absolute;
+        left: 15%;
+        width: 130px;
+    }
+    .yourname {
+        position: absolute;
+        left: 60%;
+        width: 130px;
+    }
+    .do:nth-child(2){
+        position: absolute;
+        right: 61.5%;
+    }
+    .do:nth-child(6){
+        position: absolute;
+        right: 16%;
+    }
+    .random {
+        transform: translate(-50%,50%);
+        position: absolute;
+        right: 29%;
+        top: 40%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 425px){
+    header {
+       padding: 34px 37px;
+       box-shadow: none;
+       border-bottom: none;
+       border-bottom-right-radius: 0px;
+       border-bottom-left-radius: 0px;
+       margin-bottom: 0px;
+    }
+    .nave-ul{
+        position: absolute;
+        top: -58.3%;
+        right: -60%;
+        transform: translate(50%,50%);
+        padding: 20px 50px 27px;
+        width: 100.2%;
+        display: block;
+        background: rgba(255, 255, 255, 0.5);
+        box-shadow: 0 8px 32px 0 rgb(124 155 206 / 37%);
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        transition: .8s all;
+    }
+    .nave-ul li{
+        margin-bottom: 5px;
+    }
+    .nave-ul .home {
+        color: rgb(0, 131, 205);
+    }
+    .nave-ul a {
+        font-size: 17px;
+    }
+    .nave-ul a:hover{
+        color: rgb(0, 131, 205);
+    }
+    .menu-right{
+        display: inline-block;   
+    }
+    .par-name{
+        display: inherit;
+    }
+    .logo {
+      width: 50px;
+      position: absolute;
+      left: 3%;
+      top: 10%;
+    }
+    .inp {
+        width: 120px;
+        font-size: 12px;
+    }
+    .code-1,
+    .sub-1,
+    .day-1{
+        font-size: 15px;
+    }
+    .link {
+        font-size: 12px;
+        margin-left: 2px;
+    }
+    body > div.right-listtes > table > tbody > tr:nth-child(2) > td:nth-child(2) > input,
+    body > div.right-listtes > table > tbody > tr:nth-child(3) > td:nth-child(2) > input,
+    body > div.right-listtes > table > tbody > tr:nth-child(4) > td:nth-child(2) > input{
+        width: 70px;
+    }
+    body > div.right-listtes > table > tbody > tr:nth-child(1) > td:nth-child(4){
+        width: 30px;
+    }
+    body > div.right-listtes > table > tbody > tr:nth-child(1) > td:nth-child(6){
+        width: 30px;
+    }
+    .btn-add button::after,
+    .btn-end button::after{
+        left: 78px;
+    }
+    .btn-add button:hover::after,
+    .btn-end button:hover::after {
+        width: 40%;
+        left: 75px;
+    }
+    .btn-add button::before,
+    .btn-end button::before {
+        margin-left: 90px;
+    }
+    .btn-add button:hover::before,
+    .btn-end button:hover::before {
+        margin-left: -100px;
+        width: 40%;
+    }
+    .yournumber{
+        width: 130px;
+        position: absolute;
+        left: 5%;
+    }
+    .yourname{
+        width: 130px;
+        position: absolute;
+        left: 55%;
+    }
+    .do:nth-child(2){
+        position: absolute;
+        right: 55%;
+    }
+    .do:nth-child(6){
+        position: absolute;
+        right: 5%;
+    }
+    .random {
+        transform: translate(-50%,50%);
+        position: absolute;
+        right: 12%;
+        top: 40%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 375px) {
+    .inp {
+        width: 70px;
+        font-size: 11px;
+    }
+    body > div.right-listtes > table > tbody > tr:nth-child(2) > td:nth-child(2) > input,
+    body > div.right-listtes > table > tbody > tr:nth-child(3) > td:nth-child(2) > input,
+    body > div.right-listtes > table > tbody > tr:nth-child(4) > td:nth-child(2) > input{
+        width: 55px;
+    }
+    .code-1,
+    .sub-1,
+    .day-1{
+        font-size: 15px;
+    }
+    .link {
+        font-size: 12px;
+    }
+    .btn-add button::after,
+    .btn-end button::after{
+        left: -70px;
+    }
+    .btn-add button:hover::after,
+    .btn-end button:hover::after {
+        width: 40%;
+        left: 60px;
+    }
+    .btn-add button::before,
+    .btn-end button::before {
+        margin-left: 50px;
+    }
+    .btn-add button:hover::before,
+    .btn-end button:hover::before {
+        margin-left: -104px;
+        width: 40%;
+    }
+    .regnam {
+        position: absolute;
+        right: 13%;
+    }
+    .regnum {
+        position: absolute;
+        left: 5%;
+    }
+    .national{
+       position: absolute;
+       left: 25%;
+    }
+    .editname {
+        position: absolute;
+        right: -1%;
+    }
+    .yournumber {
+        position: absolute;
+        left: 5%;
+        width: 110px;
+    }
+    .yourname {
+        position: absolute;
+        left: 55%;
+        width: 110px;
+    }
+    .do:nth-child(2){
+        position: absolute;
+        right: 55%;
+    }
+
+    .do:nth-child(6){
+        position: absolute;
+        right: 4%;
+    }
+    .random {
+        transform: translate(-50%,50%);
+        position: absolute;
+        right: 6.7%;
+        top: 38%;
+        font-size: 13px;
+    }
+}
